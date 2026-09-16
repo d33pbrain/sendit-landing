@@ -58,7 +58,7 @@ const Header = () => {
     }
 
     return (
-        <div className="fixed top-0 left-0 w-full z-[100] pointer-events-none">
+        <div className="fixed top-0 left-0 w-full z-[80] pointer-events-none">
             <CustomModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}/>
             
             {/* Top Announcement Banner */}
