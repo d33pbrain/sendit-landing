@@ -21,13 +21,15 @@ export interface LegalDocument {
 export const legalDocuments: Record<string, LegalDocument> = {
   privacyPolicy: {
     title: "SendIt Privacy Policy",
+    effectiveDate: "01/04/2026",
+    lastUpdated: "09/20/2026",
     sections: [
       {
         id: "p1",
         index: 1,
         title: "Introduction",
         content: [
-          "SendIt. (\"we,\" \"our,\" \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application and services.",
+          "SendIt. (\"we,\" \"our,\" \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our web application and services.",
           "By using SendIt., you agree to the terms of this Privacy Policy."
         ]
       },
@@ -50,7 +52,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
           },
           {
             title: "Payment Information",
-            content: "Payment details are processed by Interswitch. SendIt. does not store your full payment information."
+            content: "Payment details are processed by Monnify. SendIt. does not store your full payment information."
           },
           {
             title: "Usage Data",
@@ -77,7 +79,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
         content: [
           "We do not sell your personal information.",
           "We share your name, rating, verification status, and location for pickup/delivery with other users (senders or carriers) to facilitate transactions.",
-          "We share payment amount and transaction ID with Interswitch to process escrow payments.",
+          "We share payment amount and transaction ID with Monnify to process escrow payments.",
           "We share limited data with service providers for hosting, analytics, and push notifications.",
           "We share information with law enforcement when required by law."
         ]
@@ -105,7 +107,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
         title: "Your Rights",
         content: [
           "As a Nigerian user, you have the right to access your personal data, correct inaccurate data, delete your account and data (subject to transaction history retention), object to certain data processing, and withdraw consent where applicable.",
-          "To exercise these rights, contact us at alaoheritage2021@gmail.com."
+          "To exercise these rights, contact us at contact@senditt.com.ng."
         ]
       },
       {
@@ -129,7 +131,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
         index: 10,
         title: "Contact Us",
         content: [
-          "For privacy questions, data requests, or complaints, contact alaoheritage2021@gmail.com."
+          "For privacy questions, data requests, or complaints, contact contact@senditt.com.ng."
         ]
       }
     ]
@@ -137,7 +139,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
   termsOfService: {
     title: "SendIt Terms of Service",
     effectiveDate: "01/04/2026",
-    lastUpdated: "05/05/2026",
+    lastUpdated: "09/20/2026",
     sections: [
       {
         id: "t1",
@@ -229,7 +231,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
               "Weapons including firearms, knives, explosives, and ammunition.",
               "Hazardous materials including flammable, corrosive, and toxic substances.",
               "Stolen goods of any kind.",
-              "Cash exceeding ₦50,000.",
+              "Cash.",
               "Live animals including pets and livestock.",
               "Perishable foods that can spoil (MVP phase).",
               "Counterfeit goods including fake products and pirated media."
@@ -247,7 +249,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
         title: "Payments & Escrow",
         content: [
           "SendIt. charges a 10% platform fee, deducted from each transaction.",
-          "Funds are held by Interswitch in escrow until delivery is confirmed.",
+          "Funds are held by Sendit/Monnify in escrow until delivery is confirmed.",
           "When the sender confirms delivery, funds are released to the carrier.",
           "If the sender takes no action within 48 hours after delivery confirmation, funds are auto-released to the carrier.",
           "Refunds are issued only if a dispute is resolved in the sender's favor."
@@ -307,9 +309,9 @@ export const legalDocuments: Record<string, LegalDocument> = {
       {
         id: "t12",
         index: 12,
-        title: "Insurance",
+        title: "Insurance (Coming soon)",
         content: [
-          "Insurance is optional. Senders may purchase it at checkout for 2% of the declared package value.",
+          "Insurance is optional. Senders may purchase it at checkout for -% of the declared package value.",
           "Coverage includes lost packages, theft, and damage during transit.",
           "Not covered are prohibited items, improper packaging, and normal wear and tear.",
           "Claims must be filed within 48 hours of delivery."
@@ -364,7 +366,7 @@ export const legalDocuments: Record<string, LegalDocument> = {
         index: 18,
         title: "Contact Us",
         content: [
-          "For questions about these Terms, to report a violation, or for legal inquiries, contact alaoheritage2021@gmail.com."
+          "For questions about these Terms, to report a violation, or for legal inquiries, contact contact@senditt.com.ng."
         ]
       }
     ]
